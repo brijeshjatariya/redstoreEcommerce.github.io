@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>All Products Redstore | Ecommerce design</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="log">
+          <a href="indax.html"> <img src="images/logo.png" width="125px" /></a>
+        </div>
+
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="indax.html">Home</a></li>
+            <li><a href="products.html">products</a></li>
+            <li><a href="">about</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="account.html">Account</a></li>
+          </ul>
+        </nav>
+        <a href="cart.html"
+          ><img src="images/cart.png" width="30px" height="30px"
+        /></a>
+        <img
+          src="images/menu.png"
+          width="30px"
+          height="30px"
+          class="menu-icon"
+          onclick="menutoggle()"
+        />
+      </div>
+    </div>
+
+    <!-- ==========Contact us============= -->
+    <div class="container" style="margin-bottom: 100px;">
+      <div class="small-container">
+        <h1>Connect With us</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nam
+          dolorum <br />Lorem ipsum dolor sit amet consectetur
+        </p>
+        <div class="contact-box">
+          <div class="contact-left">
+            <h3>Sent Your Request</h3>
+            <form>
+              <div class="input-row">
+                <div class="input-group">
+                  <label> Name</label>
+                  <input type="text" placeholder="Brijesh_jatariya" />
+                </div>
+
+                <div class="input-group">
+                  <label> Phone</label>
+                  <input type="text" placeholder="+91 7656879898" />
+                </div>
+              </div>
+
+              <div class="input-row">
+                <div class="input-group">
+                  <label> Email</label>
+                  <input type="email" placeholder="Brijesh12@gmail.com" />
+                </div>
+                <div class="input-group">
+                  <label>Subject </label>
+                  <input type="text" placeholder="Project Demo" />
+                </div>
+              </div>
+
+              <label>Message</label>
+              <textarea rows="5" placeholder="Write Your Message"></textarea>
+
+              <button type="submit">Send</button>
+            </form>
+          </div>
+          <div class="contact-right">
+            <h3>Reach Us</h3>
+
+            <table>
+              <tr>
+                <td>Email</td>
+                <td>Contact@gmail.com</td>
+              </tr>
+              <tr>
+                <td>Phone</td>
+                <td>+91 817317317913</td>
+              </tr>
+              <tr>
+                <td>Address</td>
+                <td>
+                  323,second floor,9th cross <br />
+                  Near Peetambara Peeth Datia,475661 (m.p)
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==========footer============= -->
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download our App</h3>
+            <p>Download Our App For Android and ios mobail phone</p>
+            <div class="app-logo">
+              <img src="images/play-store.png" />
+              <img src="images/app-store.png" />
+            </div>
+          </div>
+
+          <div class="footer-col-2">
+            <img src="images/logo-white.png" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+              voluptas a culpa?
+            </p>
+          </div>
+
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Coupon</li>
+              <li>Blog Post</li>
+              <li>Join Affiliate</li>
+              <li>Return Policy</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow Us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Instagram</li>
+              <li>Youtube</li>
+              <li>Twitter</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="Copyright">Copyright 2021 -Brijesh_jatariya</p>
+      </div>
+    </div>
+    <script>
+      var menuItems = document.getElementById("MenuItems");
+
+      MenuItems.style.maxHeight == "0px";
+
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>

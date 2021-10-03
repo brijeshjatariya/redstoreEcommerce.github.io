@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://use.fontawesome.com/fbf13eceb7.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/payment.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="navbar">
+      <div class="log">
+        <a href="indax.html"><img src="images/logo.png" width="125px" /></a>
+      </div>
+
+      <nav>
+        <ul id="MenuItems">
+          <li><a href="indax.html">Home</a></li>
+          <li><a href="products.html">products</a></li>
+          <li><a href="">about</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="account.html">Account</a></li>
+        </ul>
+      </nav>
+      <a href="cart.html">
+        <img src="images/cart.png" width="30px" height="30px"
+      /></a>
+      <img
+        src="images/menu.png"
+        width="30px"
+        height="30px"
+        class="menu-icon"
+        onclick="menutoggle()"
+      />
+    </div>
+
+    <div class="container">
+      <div class="colored"></div>
+      <div class="info">
+        <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+        <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+        <div class="imag">
+          <a href="#"><img src="images/logo.pn" alt="" /> </a>
+        </div>
+        <div class="price">
+          <span>$245.00</span>
+          <span>Nice speaker : Quality</span>
+        </div>
+      </div>
+      <div class="form">
+        <h3>Payment informations</h3>
+        <form action="" method="post">
+          <label>PAYMENT METHOD</label>
+          <span class="select"
+            ><select>
+              <option value="VISA">VISA</option>
+              <option value="MASTERCARD">MASTER CARD</option>
+              <option value="AMERICAN EXPRESS">AMERICA EXPRESS</option>
+            </select></span
+          >
+          <label>CARDHOLDER'S NAME</label>
+          <input type="text" name="name" />
+          <label>CARD NUMBER</label>
+          <input type="text" name="CCN" />
+          <span class="expiry">
+            <label>EXPIRATION DATE</label>
+            <span class="select"
+              ><select class="small">
+                <option value="MARCH">MARCH</option>
+                <option value="MASTERCARD">APRIL</option>
+                <option value="AMERICAN EXPRESS">MAY</option>
+              </select></span
+            >
+            <span class="select"
+              ><select class="small">
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+              </select></span
+            >
+          </span>
+          <span class="sec">
+            <label>SECURITY CODE</label>
+            <input type="text" name="sec" maxlength="4" />
+          </span>
+
+          <p>Your credit card information are Encrypted</p>
+
+          <a href="order-status.html">
+            <button>
+              <a href="order-status.html" style="color: #fff"
+                >PURCHASE SAFELY</a
+              >
+            </button></a
+          >
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
